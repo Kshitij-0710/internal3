@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello from GitLab CI/CD ..🚀"}
+    return {"message": "Hello from GitLab CI/CD..🚀"}
