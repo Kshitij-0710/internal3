@@ -15,6 +15,7 @@ spec:
       containers:
       - name: mini-api
         image: $CI_REGISTRY_IMAGE:latest
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
 ---
