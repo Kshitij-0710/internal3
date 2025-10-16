@@ -12,6 +12,8 @@ spec:
       labels:
         app: mini-api
     spec:
+      imagePullSecrets:
+        - name: ghcr-secret
       containers:
       - name: mini-api
         image: ghcr.io/kshitij-0710/internal3:latest
