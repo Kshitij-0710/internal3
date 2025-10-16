@@ -15,7 +15,7 @@ spec:
       containers:
       - name: mini-api
         image: ghcr.io/kshitij-0710/internal3:latest
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
 ---
